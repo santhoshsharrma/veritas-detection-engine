@@ -1,0 +1,7 @@
+# Installed on Kaggle/Colab only (training), not needed to run the API
+torch
+torchvision
+scikit-learn
+pandas
+matplotlib
+onnx

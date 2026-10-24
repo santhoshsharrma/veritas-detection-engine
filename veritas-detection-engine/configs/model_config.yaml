@@ -1,0 +1,7 @@
+image_model:
+  backbone: efficientnet_b0
+  input_size: 224
+  onnx_path: weights/image_artifact.onnx
+thresholds:
+  image_ai_probability_flag: 0.70   # placeholder: tune on a validation set
+  text_ai_probability_flag: 0.70
